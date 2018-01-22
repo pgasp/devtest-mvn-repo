@@ -3,24 +3,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ca.devtest.sv.devtools</groupId>
 	<artifactId>devtest-unit-test-java</artifactId>
-	<version>1.1.8</version>
+	<version>1.1.10</version>
 	<name>devtest-unit-test-java</name>
 
 	<description>API to use SV as API with Junit
 This API will cover same scope as WirMock or MokServer</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
 		<javadoc.opts>-Xdoclint:none</javadoc.opts>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>local</id>
-			<url>file:///Users/gaspa03/git/devtest-mvn-repo</url>
-		</repository>
-	</distributionManagement>
+
 	<dependencies>
 
 		<dependency>
@@ -58,13 +53,18 @@ This API will cover same scope as WirMock or MokServer</description>
 			<artifactId>velocity</artifactId>
 			<version>1.7</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.aeonbits.owner</groupId>
+			<artifactId>owner</artifactId>
+			<version>1.0.9</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
 
+		
 
 	</dependencies>
 	<build>

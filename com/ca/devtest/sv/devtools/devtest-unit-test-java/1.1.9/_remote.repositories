@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Dec 15 16:00:03 CET 2017
+devtest-unit-test-java-1.1.9.pom>=
+devtest-unit-test-java-1.1.9-javadoc.jar>=
+devtest-unit-test-java-1.1.9-sources.jar>=
+devtest-unit-test-java-1.1.9.jar>=
